@@ -107,6 +107,7 @@ a {
   margin-right: 50px;
   color: var(--title-text-color);
 }
+
 .mail:hover {
   color: var(--accennt-color);
 }
@@ -129,12 +130,12 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-image: url(../DZ-4-img/Img-hero.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/icon-img/Img-hero.png);
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   height: 600px;
-  background-image: linear-gradient(#2f303a 40%);
 }
 
 .hero-name {
@@ -184,20 +185,24 @@ a {
   background-color: #f5f4fa;
 }
 .antena::before {
-  background-image: url(../DZ-4-img/antenna-1.png);
+  background-image: url(../images/icon-img/antenna-1.png);
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .clock::before {
-  background-image: url(../DZ-4-img/clock-1.png);
+  background-image: url(../images/icon-img/clock-1.png);
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .diagram::before {
-  background-image: url(../DZ-4-img/diagram-1.png);
+  background-image: url(../images/icon-img/diagram-1.png);
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .astronaut::before {
-  background-image: url(../DZ-4-img/astronaut-1.png);
+  background-image: url(../images/icon-img/astronaut-1.png);
   background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 .our-power-side {
   font-weight: bold;
@@ -206,7 +211,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-  padding-top: 30px;
 }
 .text {
   width: 270px;
@@ -258,6 +262,16 @@ a {
   display: flex;
   flex-direction: row;
 }
+.card-social-links {
+  display: flex;
+}
+.title-social-links {
+}
+.our-team li {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .img-card-content {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -287,6 +301,7 @@ a {
   padding: 60px 0;
   background-color: var(--background-color-primary);
 }
+
 .logo-footer {
   width: 145px;
   height: 31px;
@@ -340,6 +355,25 @@ a {
   /* or 171% */
 
   letter-spacing: 0.03em;
+}
+.footer-blocks {
+  display: flex;
+}
+.footer-block-title {
+  padding-bottom: 100px;
+}
+.porpose {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-title-social-links {
+  display: flex;
+  margin-top: 20px;
 }
 /* ==================portfolio=================== */
 .section-conteiner {
