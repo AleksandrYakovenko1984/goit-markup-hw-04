@@ -400,7 +400,7 @@ a {
   width: 94px;
   height: 44px;
 }
-/* footer */
+/*===== footer===== */
 .footer {
   padding: 60px 0;
   background-color: var(--background-color-primary);
@@ -416,6 +416,11 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-primary-text-color);
+}
+.footer-blocks {
+  display: flex;
+
+  align-items: baseline;
 }
 .address {
   margin-top: 20px;
@@ -455,17 +460,14 @@ a {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   /* or 171% */
 
   letter-spacing: 0.03em;
 }
-.footer-blocks {
-  display: flex;
-}
+
 .footer-block-title {
-  padding-bottom: 100px;
-  display: flex;
+  margin-left: 70px;
 }
 .porpose {
   color: #fff;
@@ -478,6 +480,10 @@ a {
 }
 .footer-title-social-links {
   display: flex;
+  margin-top: 20px;
+}
+.footer-title-social-links .footer-sl {
+  margin-right: 10px;
 }
 .footer-sl {
   display: flex;
@@ -538,7 +544,10 @@ a {
   padding: 6px 22px;
   color: var(--primary-text-color);
 }
-.button-portf:hover {
+.button-portf:hover,
+.button-portf:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-portf:active {
   background-color: var(--accennt-color);
@@ -555,6 +564,14 @@ a {
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--card-set-gap));
   margin-left: -30px;
+}
+.all-section-port a {
+  display: block;
+}
+.all-section-port a:hover,
+.all-section-port a:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .name-img {
